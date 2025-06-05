@@ -10,6 +10,9 @@ public class PuzzleManager : MonoBehaviour
 
     public UnityEvent onPuzzleComplete;
 
+    [Header("Audio")]
+    public AudioSource successAudio;
+
     private bool puzzleCompleted = false;
 
     public void CheckPuzzleState()
@@ -21,11 +24,14 @@ public class PuzzleManager : MonoBehaviour
         bool blueCorrect = blueSocket.selectTarget != null && blueSocket.selectTarget.CompareTag("BlueCube");
 
         if (redCorrect && greenCorrect && blueCorrect)
-{
-    puzzleCompleted = true;
-    Debug.Log("✅ Puzzle Completed!");
-    onPuzzleComplete.Invoke();
-}
+        {
+            puzzleCompleted = true;
+            Debug.Log("✅ Puzzle Completed!");
 
+            if (successAudio != null)
+                successAudio.Play();
+
+            onPuzzleComplete.Invoke();
+        }
     }
 }
