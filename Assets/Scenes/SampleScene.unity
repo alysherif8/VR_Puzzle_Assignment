@@ -132,8 +132,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 30139760}
-  - component: {fileID: 30139762}
   - component: {fileID: 30139761}
+  - component: {fileID: 30139762}
   m_Layer: 0
   m_Name: RedSocket
   m_TagString: Untagged
@@ -186,7 +186,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 30139759}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f98f93077775c24a9eee9b4f98b0f8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -237,6 +237,7 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+  targetTag: RedCube
 --- !u!1 &78249996
 GameObject:
   m_ObjectHideFlags: 0
@@ -1420,8 +1421,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1231525177}
-  - component: {fileID: 1231525179}
   - component: {fileID: 1231525178}
+  - component: {fileID: 1231525179}
   m_Layer: 0
   m_Name: GreenSocket
   m_TagString: Untagged
@@ -1474,7 +1475,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1231525176}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f98f93077775c24a9eee9b4f98b0f8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -1525,6 +1526,7 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+  targetTag: GreenCube
 --- !u!1001 &1324679589
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1721,8 +1723,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1855442410}
-  - component: {fileID: 1855442412}
   - component: {fileID: 1855442411}
+  - component: {fileID: 1855442412}
   m_Layer: 0
   m_Name: BlueSocket
   m_TagString: Untagged
@@ -1775,7 +1777,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1855442409}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60523e0647cc6ab43acc73cb266a32a7, type: 3}
+  m_Script: {fileID: 11500000, guid: 4f98f93077775c24a9eee9b4f98b0f8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 0}
@@ -1826,6 +1828,7 @@ MonoBehaviour:
   m_SocketScaleMode: 0
   m_FixedScale: {x: 1, y: 1, z: 1}
   m_TargetBoundsSize: {x: 1, y: 1, z: 1}
+  targetTag: BlueCube
 --- !u!1 &1963498698
 GameObject:
   m_ObjectHideFlags: 0
